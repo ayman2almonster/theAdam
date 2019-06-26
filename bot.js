@@ -191,4 +191,4 @@ client.on('guildMemberAdd', member=> {
     member.addRole(member.guild.roles.find("name","「 🆉🆇🆉」"));
     });
 
-client.login('NTgyODg0ODU4OTkzMzExNzQ1.XRNMLQ.CbmzP0SQUict3e2ud2b_y5SJ0n0');
+client.login(process.env.BOT_TOKEN);
